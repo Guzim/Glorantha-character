@@ -1,0 +1,119 @@
+html, body {
+	margin: 0px;
+	background: #fff;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:0.95em;
+	color:#4d4948;
+}
+
+h1 {
+	margin: 0;
+	text-align: center;
+	font-size: 150%;
+	padding: 0px;
+}
+
+h2 {
+	margin: 0;
+	text-align: center;
+	font-size: 120%;
+	padding: 0px;
+}
+
+h3 {
+	margin: 0;
+	font-size: 105%;
+	padding: 0px;
+}
+
+ul {
+        list-style-image:url('images/list-item.gif');
+}
+
+a:link    {color:#000000; /* unvisited link  */
+	   text-decoration:none;}
+a:visited {color:#A06000; /* visited link    */
+	   text-decoration:none;}
+a:hover   {color:#FFA000; /* mouse over link */
+	   text-decoration:underline;}
+a:active  {color:#FF7000; /* selected link   */
+	   text-decoration:none;}
+
+#top {
+	margin: 0 auto 0 auto;
+	background:url('images/top-bg-jaune.jpg') repeat-x;
+	width:100%;
+	height:150px;
+}
+
+#logo {
+	margin: 0 auto 0 auto;
+	background:url('images/rune-air.gif');
+	width: 129px;
+	height: 143px;
+}
+
+#content {
+	margin: 0 auto 0 auto;
+	width: 95%;
+}
+
+#content #left-nav {
+	width:15%;
+	float:left;
+	font-size:95%;
+}
+
+#content #left-nav ul {
+	padding:0 0 50px 0;
+	margin:0;
+}
+
+#content #left-nav ul li {
+	padding:0;
+	margin:0;
+	color:#ff0505;
+	list-style:none;
+}
+
+#content #main {
+	float:left;
+	width:85%;
+	font-size:90%;
+}
+
+#content #main #regbox {
+	padding: 0 0 0 0;
+}
+
+#content #main #regbox label {
+	width:100px;
+	float:left;
+}
+
+table.admin td {
+	vertical-align: top;	
+}
+
+#error {
+	display:block;
+	margin:5px;
+	color:#4d4948;
+	background-color:#fffebe;
+	border: 1px solid #cbcbcb;
+	font-size:90%;
+}
+
+#success {
+	margin:5px;
+	color:#4d4948;
+	background-color:#bce9b5;
+	border: 1px solid #7ace6c;
+	font-size:90%;
+}
+
+/* Home made id selectors */
+#subtitle {
+	font-size:75%;
+	font-style:italic;
+}
